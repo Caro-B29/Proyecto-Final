@@ -1,2 +1,4 @@
 # Proyecto-Final
 Inseguridad por los robos en las viviendas del barrio Marandu, Bogotá Colombia 
+## descripcion del proyecto 
+El proyecto tiene como objetivo analizar la problemática de la inseguridad en el barrio Marandú, ubicado en Bogotá, Colombia, enfocándose específicamente en los robos a viviendas. A través de una investigación, se busca identificar las principales causas, los factores que contribuyen a que esto suceda, y sus consecuencias en la calidad de vida de los residentes. Además, se pretende proponer soluciones o recomendaciones que puedan ayudar a mejorar la seguridad en la comunidad. Esto a base de que en el salon comunal del barrio se ha hablado de como en los ultimos meses se ha incrementado mas los robos, donde varias familias cuentas sus experiencias de como han entrado estos personajes a invadir su propiedad y 
