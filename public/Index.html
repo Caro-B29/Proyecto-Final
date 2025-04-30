@@ -1,60 +1,33 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Mapa con Leaflet</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    <title>Robo a las viviendas en el barrio Marandú</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <!-- Hoja de estilo de Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="estilos.css">
+    <div id="map"></div> <!-- Aquí aparecerá el mapa -->  
   
-    <style>
-      #map {
-        height: 600px; /* Altura del mapa */
-      }
-    </style>
   </head>
-  <body>
-  
-    <div id="map"></div> <!-- Aquí aparecerá el mapa -->
-  
-    <!-- Script de Leaflet -->
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  
-    <script>
-      // Coordenadas del lugar específico, por ejemplo: Ciudad de México
-      var lat = 4.7065055;
-      var lon = -74.1353432;
-      var zoom = 13;
-  
-      // Crear el mapa
-      var map = L.map('map').setView([lat, lon], zoom);
-  
-      // Cargar una capa base (OpenStreetMap)
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-      }).addTo(map);
-  
-      // Agregar un marcador
-      L.marker([lat, lon]).addTo(map)
-        .bindPopup('Aquí está el lugar específico.')
-        .openPopup();
-    </script>
-</head>
 <body>
     <header>
         <div>
-            <title>Robo a las viviendas en el barrio marandu</title>
+            <h1>Robo a las viviendas en el barrio marandu</h1>
         </div>
         <div> Problematica que abarca el robo en el barrio, donde en los ultimos meses se ha incrementado dando alerta a los propietario o habitantes de los hogares en el sector, conociendose así ya varios casos donde estos personajes han entrado a corromper 
         </div>
     </header>
     <main>
         <div>
-            <h2>Descripción del problema 
+            <h2>Descripción del problema </h2>
                 <p>se ha evidenciado un preocupante incremento en los casos de robos a viviendas, lo que ha generado un ambiente de inseguridad y temor entre sus habitantes. Esta situación afecta no solo el bienestar físico y emocional de las familias, sino también la confianza entre vecinos y la percepción general de seguridad en la comunidad.
-                    Los robos se presentan con distintas modalidades, desde hurtos cuando las casas están desocupadas hasta ingresos forzados en presencia de los residentes, lo que eleva el riesgo de violencia. Inclusi se han escuchado testimonios de como llegan a las mujeres que suelen ser mas vulnerables con traps llenos de hioscina en el momento que ellas van entrando a su hogar para ellos entrar sin mas
-                    
+                    Los robos se presentan con distintas modalidades, desde hurtos cuando las casas están desocupadas hasta ingresos forzados en presencia de los residentes, lo que eleva el riesgo de violencia. Inclusi se han escuchado testimonios de como llegan a las mujeres que suelen ser mas vulnerables con traps llenos de hioscina en el momento que ellas van entrando a su hogar para ellos entrar sin mas                    
+                </p>
         </div>
+        <div id="map"></div> <!-- Aquí aparecerá el mapa -->  
     </main>
     <footer>
         <div>
@@ -63,6 +36,6 @@
             </p>
         </div>
     </footer>
-    <script></script>
+    <script src="programa.js"></script>
 </body>
 </html>
