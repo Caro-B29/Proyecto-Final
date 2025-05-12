@@ -1,6 +1,6 @@
- // Coordenadas del lugar específico, por ejemplo: Ciudad de México
- var lat = 4.7065055;
- var lon = -74.1353432;
+ // Coordenadas del lugar específico: Universidad Distrital
+ var lat = 4.61798365;
+ var lon = -74.0612434411595;
  var zoom = 13;
 
  // Crear el mapa
@@ -16,4 +16,5 @@
    .bindPopup('Aquí está el lugar específico.')
    .openPopup();
 
+   var marker = L.marker([4.61798365, -74.0612434411595]).addTo(map);
    
