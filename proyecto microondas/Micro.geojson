@@ -1,0 +1,93 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"FeatureCollection",
+            "geometry":{
+                "type":"point",
+                "coordinates":[4.61798365, -74.0612434411595]
+            },
+            "properties":{
+                "preciodesc": 219.900,
+                "precionorm": 267.900, 
+                "ALto": 25.8,
+                "Ancho": 33.4,
+                "profundidad": 44,
+                "capacidad": 20,
+                "modelo": "xx",
+                "potencia": 700,
+                "voltaje": 110
+            },
+
+            "properties2":{
+                "preciodesc": 269.900,
+                "precionorm": 2399.900, 
+                "ALto": 25.9,
+                "Ancho": 44,
+                "profundidad": 32.9,
+                "capacidad": 0.7 ,
+                "modelo": "Kalley0.7K-MW07N",
+                "potencia": 700,
+                "voltaje": 110 
+            },
+            "properties3":{
+                "preciodesc": 264.900,
+                "precionorm": 369.900, 
+                "ALto": 25,
+                "Ancho": 31.5,
+                "profundidad":43.5,
+                "capacidad": 0.7 ,
+                "modelo": "Kalley0.7K-MW07BL",
+                "potencia": 700,
+                "voltaje": 110
+            },
+            "properties4":{
+                "preciodesc": 269.900,
+                "precionorm": 399.900, 
+                "ALto": 25.9,
+                "Ancho": 44,
+                "profundidad":32.9,
+                "capacidad": 0.7 ,
+                "modelo": "K-MW07N",
+                "potencia": 700,
+                "voltaje": 110
+            },
+            "properties5":{
+                "preciodesc": 281.110,
+                "precionorm": 308.155, 
+                "ALto": 26.2,
+                "Ancho": 45.2,
+                "profundidad":"N/E",
+                "capacidad": "N/E" ,
+                "modelo": "M07SEJ",
+                "potencia": "N/E",
+                "voltaje": "N/E"
+            },
+            "properties6":{
+                "preciodesc": 229.900,
+                "precionorm":249.900, 
+                "ALto": 25.8,
+                "Ancho": 44,
+                "profundidad":33.4,
+                "capacidad": 20 ,
+                "modelo": "RMD-CUCINA20-B",
+                "potencia": 1050,
+                "voltaje": "N/E"
+            },
+            "properties7":{
+                "preciodesc": 289.900,
+                "precionorm":399.900, 
+                "ALto": 25.9,
+                "Ancho": 44,
+                "profundidad":32.9,
+                "capacidad": 0.7 ,
+                "modelo": "MMDF07S2MB",
+                "potencia": "N/E",
+                "voltaje": "120"
+            }
+
+    
+        }
+    ]
+    
+}
