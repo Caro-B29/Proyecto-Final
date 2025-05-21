@@ -15,31 +15,52 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 
-  </head>
+</head>
 <body>
+    
+    <!-- Barra de navegación -->
     <header>
-        <div>
-            <h1>Robo a las viviendas en el barrio marandu</h1>
-        </div>
-        <div> Problematica que abarca el robo en el barrio, donde en los ultimos meses se ha incrementado dando alerta a los propietario o habitantes de los hogares en el sector, conociendose así ya varios casos donde estos personajes han entrado a corromper 
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#acerca-de" onclick="mostrarSeccion('acerca-de')">Acerca de...</a></li>
+                <li><a href="#descripcion" onclick="mostrarSeccion('descripcion')">Descripción</a></li>
+                <li><a href="#autor" onclick="mostrarSeccion('autor')">Autor</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <div>
-            <h2>Descripción del problema </h2>
-                <p>se ha evidenciado un preocupante incremento en los casos de robos a viviendas, lo que ha generado un ambiente de inseguridad y temor entre sus habitantes. Esta situación afecta no solo el bienestar físico y emocional de las familias, sino también la confianza entre vecinos y la percepción general de seguridad en la comunidad.
-                    Los robos se presentan con distintas modalidades, desde hurtos cuando las casas están desocupadas hasta ingresos forzados en presencia de los residentes, lo que eleva el riesgo de violencia. Inclusi se han escuchado testimonios de como llegan a las mujeres que suelen ser mas vulnerables con traps llenos de hioscina en el momento que ellas van entrando a su hogar para ellos entrar sin mas                    
-                </p>
-        </div>
-        <div id="map"></div> <!-- Aquí aparecerá el mapa -->  
-    </main>
-    <footer>
-        <div>
-            <p>
+    <!-- Sección Acerca de -->
+    <section id="acerca-de" class="seccion" style="display:none;">
+        <h2>Acerca de...</h2>
+        <p>Este proyecto tiene como objetivo analizar los robos en las viviendas del barrio Marandú, ubicado en la localidad de Engativá, Bogotá, Colombia. El análisis se realiza mediante el uso de tecnologías de geolocalización y visualización de mapas.
+            Problematica que abarca el robo en el barrio, donde en los ultimos meses se ha incrementado dando alerta a los propietario o habitantes de los hogares en el sector, conociendose así ya varios casos donde estos personajes han entrado a corromper 
+        </p>
+        <!-- Mapa con polígono -->
+        <div id="mapa-acerca-de" class="mapa"></div>
+    </section>
 
+    <!-- Sección Descripción -->
+    <section id="descripcion" class="seccion" style="display:none;">
+        <h2>Descripción del Proyecto</h2>
+        <p>Este proyecto utiliza herramientas como Leaflet.js para visualizar los datos geoespaciales, y se enfoca en la investigación de la incidencia de robos en el barrio Marandú. Se utiliza información pública y se analiza con tecnologías web.</p>
+
+            <p>se ha evidenciado un preocupante incremento en los casos de robos a viviendas, lo que ha generado un ambiente de inseguridad y temor entre sus habitantes. Esta situación afecta no solo el bienestar físico y emocional de las familias, sino también la confianza entre vecinos y la percepción general de seguridad en la comunidad.
+                Los robos se presentan con distintas modalidades, desde hurtos cuando las casas están desocupadas hasta ingresos forzados en presencia de los residentes, lo que eleva el riesgo de violencia. Inclusi se han escuchado testimonios de como llegan a las mujeres que suelen ser mas vulnerables con traps llenos de hioscina en el momento que ellas van entrando a su hogar para ellos entrar sin mas 
             </p>
+    </section>
+    <!-- Sección Autor -->
+    <section id="autor" class="seccion" style="display:none;">
+        <h2>Autor</h2>
+        <!-- Espacio para foto -->
+        <div id="foto-autor">
+            <img src="ruta-a-tu-foto.jpg" alt="Foto del autor" width="150">
         </div>
-    </footer>
-    <script src="programa.js"></script>
+        <!-- Biografía -->
+        <p> biografía personal.</p>
+        <!-- Mapa debajo -->
+        <div id="mapa-autor" class="mapa"></div>
+    </section>
+
+
+                    <script src="programa.js"></script>
 </body>
 </html>
